@@ -1,0 +1,19 @@
+{
+  "name": "training_package_jey_3",
+  "version": "1.0.3",
+  "description": "",
+  "main": "./bundle.cjs.js",
+  "module": "./bundle.es.js",
+  "unpkg": "./bundle.umd.js",
+  "scripts": {
+    "start": "rollup --config rollup.config.js -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-react": "^7.12.10",
+    "@rollup/plugin-babel": "^5.2.2",
+    "rollup": "^2.34.2"
+  }
+}
